@@ -316,14 +316,14 @@ padding: 16px 16%;
 
 .portfolio-content{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(275px, auto));
   align-items: center;
   gap: 2.3rem;
-  margin-top: 4.2rem;
+  margin-top: 2.2rem;
 }
 
 .row img{
-  height: auto;
+  height:auto;
   width: 100%;
   border-radius: 28px;
   margin-bottom: 1.4rem;
@@ -377,6 +377,9 @@ padding: 16px 16%;
   transform: translateY(-5px) scale(1.03);
   cursor: pointer;
 }
+
+
+
 
 .contact-form{
   display: flex;
